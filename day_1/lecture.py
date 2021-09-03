@@ -31,6 +31,13 @@ my_car = {
   "interest": 22
 }
 
+my_other_cars = {
+  "first_car": my_car,
+  "second_car": "honda civic",
+  "third_car": 24
+}
+print(my_other_cars)
+
 # Dictionary items are ordered, changeable, and does not allow duplicates.
 
 print(my_car)
@@ -78,6 +85,8 @@ your_car = {
   "year": 2012,
   "colors": ["red", "white", "blue"]
 }
+
+your_car["brand"] = "Mazda"
 
 # Accessing Items
 # You can access the items of a dictionary by referring to its key name, inside square brackets:
